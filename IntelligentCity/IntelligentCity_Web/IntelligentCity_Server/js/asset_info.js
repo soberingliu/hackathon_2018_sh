@@ -27,34 +27,6 @@ let contractAddress = {
 	TestToken: "0x46e4df4b9c3044f12543adaa8ad0609d553041f9"
 };
 
-let Solfile = {
-	dir: __dirname + "/contracts/",
-	AssetOwnership: "AssetOwnership.sol",
-	MintSale: "mintSale.sol",
-	TestToken: "TestToken.sol",
-	StandardToken: "StandardToken.sol",
-	SafeMath: "SafeMath.sol",
-	ERC20Protocol: "ERC20Protocol.sol",
-	Owned:"Owned.sol"
-};
-
-// ERC721
-console.log("file_path:", Solfile["dir"] + Solfile['ERC20Protocol']);
-let ERC20Protocol_input = fs.readFileSync(Solfile["dir"] + Solfile['ERC20Protocol']);
-let MintSale_input = fs.readFileSync(Solfile["dir"] + Solfile['MintSale']);
-let AssetOwnership_input = fs.readFileSync(Solfile["dir"] + Solfile['AssetOwnership']);
-let TestToken_input = fs.readFileSync(Solfile["dir"] + Solfile['TestToken']);
-let StandardToken_input = fs.readFileSync(Solfile["dir"] + Solfile['StandardToken']);
-let SafeMath_input = fs.readFileSync(Solfile["dir"] + Solfile['SafeMath']);
-let Owned_input = fs.readFileSync(Solfile["dir"] + Solfile['Owned']);
-let input = {};
-input["ERC20Protocol.sol"] = ERC20Protocol_input.toString();
-input["SafeMath.sol"] = SafeMath_input.toString();
-input["StandardToken.sol"] = StandardToken_input.toString();
-input["Owned.sol"] = Owned_input.toString();
-input["TestToken.sol"] = TestToken_input.toString();
-input["AssetOwnership.sol"] = AssetOwnership_input.toString();
-input["mintSale.sol"] = MintSale_input.toString();
 
 
 // let g_all_abi = {};// = JSON.parse(fs.readFileSync(__dirname + "/all_abi.json"));
