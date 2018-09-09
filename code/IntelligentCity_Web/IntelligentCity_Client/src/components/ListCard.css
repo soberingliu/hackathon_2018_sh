@@ -1,0 +1,11 @@
+
+.ant-card-cover img {
+    height: 250px
+}
+
+.priceGroup {
+    /* position: absolute; */
+}
+.priceVal {
+    position: relative;
+}

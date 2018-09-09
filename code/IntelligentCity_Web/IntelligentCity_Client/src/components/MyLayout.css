@@ -1,0 +1,18 @@
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);  
+    /* background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535970359811&di=5b0a0d50cdb041d758485a4e7bf3cab4&imgtype=0&src=http%3A%2F%2Fimg.hecaijing.com%2Fproduction%2Fpicts%2F20180509%2F694f052f0ad7dea0aa91d8c1b7969540.jpg"); */
+    margin: 16px 28px 16px 0;
+    float: left;
+  }
+
+.textLogo {
+    background-color: transparent;
+    float: right;
+    color: white;
+}
+
+.ant-layout-sider {
+    position: relative;
+}

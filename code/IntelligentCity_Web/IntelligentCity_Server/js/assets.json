@@ -1,0 +1,39 @@
+{
+    "注释1": "1 ID表示唯一标识;",
+    "注释2": "2 name 商品名称;",
+    "注释3": "3 type线上或线下,ture表示线上,false表示线下;",
+    "注释4": "4 chain 只有type=true时才有意义,取值ETH/WAN",
+    "注释5": "5 address 只有type=true时才有意义,表示该token的拥有者地址,貌似没什么用",
+    "注释6": "6 picture 该商品对应的图片文件名",
+    "注释7": "7 description 商品描述",
+    "注释8": "8 price 价格",
+    "objlist": [
+        {
+            "ID": 1,
+            "name": "Iphone",
+            "type": "false",
+            "chain": "",
+            "address": "0x695a8e2e185173f89c98d3e49f5ebceccab25244",
+            "picture": "iphone.jpg",
+            "description": "this is iPhone"
+        },
+        {
+            "ID": 2,
+            "name": "Car",
+            "type": "true",
+            "chain": "WAN",
+            "address": "0x695a8e2e185173f89c98d3e49f5ebceccab25244",
+            "picture": "sword.jpg",
+            "description": "this is car"
+        },
+        {
+            "ID": 3,
+            "name": "House",
+            "type": "true",
+            "chain": "ETH",
+            "address": "0xd07a6f40b8a42e7c876d53e9f8b580f6e46613a7",
+            "picture": "knife.jpg",
+            "description": "this is house"
+        }
+    ]
+}
